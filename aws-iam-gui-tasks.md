@@ -74,7 +74,7 @@ This guide contains step-by-step **IAM practice tasks** covering **users, groups
 3. Configure AWS CLI locally:
    ```bash
    aws configure
-```
+   ```
 
 ---
 
