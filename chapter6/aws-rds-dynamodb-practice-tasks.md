@@ -71,6 +71,7 @@ SELECT * FROM employees;
 - Modify instance type from `db.t3.micro` → `db.t3.small` (simulate scaling).
 
 ---
+---
 
 ## 📗 AWS DynamoDB Practice Tasks
 
@@ -89,16 +90,6 @@ Understand key-value and NoSQL table creation, CRUD operations, and indexing.
 ---
 
 ### 🪜 Task 2: Insert Items
-**Console Example:**
-```json
-{
-  "EmployeeID": "E101",
-  "Name": "Alice",
-  "Role": "Developer",
-  "Salary": 75000
-}
-```
-
 **CLI Example:**
 ```bash
 aws dynamodb put-item --table-name EmployeeData --item '{"EmployeeID": {"S": "E102"}, "Name": {"S": "Bob"}, "Role": {"S": "Manager"}, "Salary": {"N": "90000"}}'
